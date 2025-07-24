@@ -284,7 +284,7 @@ function Library:Window(options)
             tabButton.Size = UDim2.new(0, 165, 0, 30)
             tabButton.AutoButtonColor = false
             tabButton.Font = Enum.Font.GothamSemibold
-            tabButton.Text = "  " .. options.text
+            tabButton.Text = "         " .. options.text
             tabButton.TextColor3 = Color3.fromRGB(234, 239, 245)
             tabButton.TextSize = 14.000
             tabButton.BackgroundTransparency = 1
@@ -318,7 +318,7 @@ function Library:Window(options)
             tabIcon.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
             tabIcon.BackgroundTransparency = 1.000
             tabIcon.BorderSizePixel = 0
-            tabIcon.Position = UDim2.new(0.02, 0, 0.133333355, 0)
+            tabIcon.Position = UDim2.new(0.0408859849, 0, 0.133333355, 0)
             tabIcon.Size = UDim2.new(0, 21, 0, 21)
             tabIcon.Image = options.icon
             tabIcon.ImageColor3 = Color3.fromRGB(43, 154, 198)
@@ -369,10 +369,10 @@ function Library:Window(options)
                 sectionLabel.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
                 sectionLabel.BackgroundTransparency = 1.000
                 sectionLabel.BorderSizePixel = 0
-                sectionLabel.Position = UDim2.new(0.04, 0, 0, 0)
+                sectionLabel.Position = UDim2.new(0.0121902823, 0, 0, 0)
                 sectionLabel.Size = UDim2.new(0, 213, 0, 25)
                 sectionLabel.Font = Enum.Font.GothamSemibold
-                sectionLabel.Text = "  " .. options.text
+                sectionLabel.Text = "   " .. options.text
                 sectionLabel.TextColor3 = Color3.fromRGB(234, 239, 245)
                 sectionLabel.TextSize = 14.000
                 sectionLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -383,7 +383,7 @@ function Library:Window(options)
 
                 sectionLayout.Name = "sectionLayout"
                 sectionLayout.Parent = sectionFrame
-                sectionLayout.HorizontalAlignment = Enum.HorizontalAlignment.Left
+                sectionLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
                 sectionLayout.SortOrder = Enum.SortOrder.LayoutOrder
                 sectionLayout.Padding = UDim.new(0, 2)
 
@@ -486,7 +486,7 @@ function Library:Window(options)
                     toggleFrame.BackgroundColor3 = Color3.fromRGB(4, 4, 11)
                     toggleFrame.BorderSizePixel = 0
                     toggleFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-                    toggleFrame.Position = UDim2.new(0.95, -38, 0.5, 0)
+                    toggleFrame.Position = UDim2.new(0.9, 0, 0.5, 0)
                     toggleFrame.Size = UDim2.new(0, 38, 0, 18)
                     toggleFrame.AutoButtonColor = false
                     toggleFrame.Font = Enum.Font.SourceSans
@@ -589,7 +589,7 @@ function Library:Window(options)
                     sliderFrame.BackgroundColor3 = Color3.fromRGB(29, 87, 118)
                     sliderFrame.BorderSizePixel = 0
                     sliderFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-                    sliderFrame.Position = UDim2.new(0.95, -72, 0.5, 0)
+                    sliderFrame.Position = UDim2.new(1.6, 0, 0.5, 0)
                     sliderFrame.Size = UDim2.new(0, 72, 0, 2)
                     sliderFrame.Text = ""
                     sliderFrame.AutoButtonColor = false
@@ -639,7 +639,7 @@ function Library:Window(options)
                     sliderTextBox.Parent = sliderLabel
                     sliderTextBox.BackgroundColor3 = Color3.fromRGB(1, 7, 17)
                     sliderTextBox.AnchorPoint = Vector2.new(0.5, 0.5)
-                    sliderTextBox.Position = UDim2.new(0.95, -31, 0.5, 0)
+                    sliderTextBox.Position = UDim2.new(2.4, 0, 0.5, 0)
                     sliderTextBox.Size = UDim2.new(0, 31, 0, 15)
                     sliderTextBox.Font = Enum.Font.Gotham
                     sliderTextBox.Text = options.min
@@ -711,7 +711,7 @@ function Library:Window(options)
                     dropdownText.Name = "dropdownText"
                     dropdownText.Parent = dropdownLabel
                     dropdownText.BackgroundColor3 = Color3.fromRGB(2, 5, 12)
-                    dropdownText.Position = UDim2.new(0.95, -87, 0.0909090936, 0)
+                    dropdownText.Position = UDim2.new(1.08571434, 0, 0.0909090936, 0)
                     dropdownText.Size = UDim2.new(0, 87, 0, 18)
                     dropdownText.Font = Enum.Font.Gotham
                     dropdownText.Text = " " .. options.default
@@ -836,7 +836,7 @@ function Library:Window(options)
                     textBox.Parent = Textbox
                     textBox.AnchorPoint = Vector2.new(0.5, 0.5)
                     textBox.BackgroundColor3 = Color3.fromRGB(1, 7, 17)
-                    textBox.Position = UDim2.new(0.95, -53, 0.5, 0)
+                    textBox.Position = UDim2.new(0.850000024, 0, 0.5, 0)
                     textBox.Size = UDim2.new(0, 53, 0, 15)
                     textBox.Font = Enum.Font.Gotham
                     textBox.Text = options.value
@@ -908,7 +908,7 @@ function Library:Window(options)
                     colorpickerButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                     colorpickerButton.BackgroundTransparency = 1.000
                     colorpickerButton.BorderSizePixel = 0
-                    colorpickerButton.Position = UDim2.new(0.95, -15, 0.57, 0)
+                    colorpickerButton.Position = UDim2.new(0.920, 0, 0.57, 0)
                     colorpickerButton.Size = UDim2.new(0, 15, 0, 15)
                     colorpickerButton.Image = "rbxassetid://8023491332"
                     colorpickerButton.MouseButton1Click:Connect(function()
@@ -1223,7 +1223,7 @@ function Library:Window(options)
                     keybindLabel.AnchorPoint = Vector2.new(0.5, 0.5)
                     keybindLabel.BackgroundColor3 = Color3.fromRGB(157, 171, 182)
                     keybindLabel.BackgroundTransparency = 1.000
-                    keybindLabel.Position = UDim2.new(0.95, -36, 0.5, 0)
+                    keybindLabel.Position = UDim2.new(0.910000026, 0, 0.5, 0)
                     keybindLabel.Size = UDim2.new(0, 36, 0, 22)
                     keybindLabel.Font = Enum.Font.Gotham
                     keybindLabel.Text = oldKey .. " "
