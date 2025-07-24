@@ -245,7 +245,7 @@ function Library:Window(options)
             tabSection.Size += UDim2.new(0, 0, 0, num)
         end
 
-        tabSectionLabel.Name = "tabSectionLabel"
+        tabSectionLabel.Name = " tabSectionLabel"
         tabSectionLabel.Parent = tabSection
         tabSectionLabel.BackgroundColor3 = Color3.fromRGB(234, 239, 245)
         tabSectionLabel.BackgroundTransparency = 1.000
@@ -257,7 +257,7 @@ function Library:Window(options)
         tabSectionLabel.TextSize = 17.000
         tabSectionLabel.TextXAlignment = Enum.TextXAlignment.Left
 
-        tabSectionLayout.Name = "tabSectionLayout"
+        tabSectionLayout.Name = " tabSectionLayout"
         tabSectionLayout.Parent = tabSection
         tabSectionLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
         tabSectionLayout.SortOrder = Enum.SortOrder.LayoutOrder
